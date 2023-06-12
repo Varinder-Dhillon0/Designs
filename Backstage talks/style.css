@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 1.125em;
+    overflow: hidden;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+    position: absolute;
+    width: 98%;
+    top: 0;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 0;
+    margin-top: 10px;
+
+}
+
+h3{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+main{
+    margin: auto;
+    text-align: center;
+    height: 770px;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+main div{
+    height: 694px;
+    padding-top: 100px;
+    scroll-snap-align: start;
+}
+
+main div a{
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+main::-webkit-scrollbar { width: 0 !important }
+
+.col-1{
+    width: 23%;
+}
+
+.col-1 a{
+    color: black;
+}
+
+.col-1 p{
+    font-weight: 600;
+}
+
+.col-1 span{
+    font-weight: 300;
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+
+.col-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 170px;
+}
+
+.col-2 a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
